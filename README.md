@@ -7,7 +7,6 @@ Matches the blog post *How to Scrape Local Business Listings*.
 ## Setup
 
 ```bash
-cd src
 python3 -m venv .venv && source .venv/bin/activate   # or .venv\Scripts\activate on Windows
 pip install -r requirements.txt
 export CRAWLBASE_TOKEN=your_normal_token
